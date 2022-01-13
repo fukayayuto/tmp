@@ -140,6 +140,7 @@ table
 {
     border-spacing: 0;
     border-collapse: collapse;
+	width: 100%;
 }
 
 *,
@@ -331,7 +332,9 @@ img
     margin: 0 auto;
     padding: 0 20px;
 }
-
+.legal{
+padding-bottom:40px;
+}
 .legal-title
 {
     font-family: akabara-cinderella, sans-serif;
@@ -340,6 +343,9 @@ img
     padding: 20px 0;
 
     color: #33220d;
+}
+.legal-list li{
+	margin-bottom: 20px;
 }
 @media only screen and (max-width: 1159px)
 {
@@ -370,13 +376,10 @@ img
 {
     font-size: 26px;
     line-height: 1.4;
-
     position: relative;
-
     margin-top: 60px;
     margin-bottom: 20px;
     padding-left: 41px;
-
     color: #33220d;
 }
 @media only screen and (max-width: 1159px)
@@ -384,7 +387,6 @@ img
     .legal-h2
     {
         font-size: 20px;
-
         padding-left: 35px;
     }
 }
@@ -653,10 +655,6 @@ img
     background-image: url(../img/title-line.png);
     background-repeat: no-repeat;
     background-size: contain;
-}
-.stipulation-h2
-{
-    margin-bottom: -20px;
 }
 .stipulation-h3
 {
